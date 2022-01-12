@@ -8,7 +8,7 @@
 - docker
 - yarn
 
-## 启动
+## 开始
 
 **安装依赖**
 
@@ -21,6 +21,9 @@ yarn install
 ```bash
 yarn run start
 ```
+
+启动成功则会输出如下日志
+<img src="./assets/img1.png"/>
 
 使用 `yarn run debug` 以获得更多的日志输出，并且可以直接在浏览器上进行调试。详情请参考 [Node 开发调试](https://chenshenhai.github.io/koa2-note/note/debug/info.html)
 
