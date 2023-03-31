@@ -5,5 +5,5 @@ WORKDIR /home/app
 COPY . /home/app
 RUN cd /home/app && yarn install
 
-EXPOSE 8001
+EXPOSE 8100
 CMD ["yarn", "start"]
